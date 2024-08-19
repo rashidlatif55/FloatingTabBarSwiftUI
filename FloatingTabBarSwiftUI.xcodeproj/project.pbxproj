@@ -16,6 +16,8 @@
 		98AB0F952C73273200FEA1FC /* FloatingTabBarSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AB0F942C73273200FEA1FC /* FloatingTabBarSwiftUITests.swift */; };
 		98AB0F9F2C73273200FEA1FC /* FloatingTabBarSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AB0F9E2C73273200FEA1FC /* FloatingTabBarSwiftUIUITests.swift */; };
 		98AB0FA12C73273200FEA1FC /* FloatingTabBarSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AB0FA02C73273200FEA1FC /* FloatingTabBarSwiftUIUITestsLaunchTests.swift */; };
+		98AB0FAF2C732D1100FEA1FC /* TabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AB0FAE2C732D1100FEA1FC /* TabModel.swift */; };
+		98AB0FB22C732DFC00FEA1FC /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AB0FB12C732DFC00FEA1FC /* CustomTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		98AB0F9A2C73273200FEA1FC /* FloatingTabBarSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloatingTabBarSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98AB0F9E2C73273200FEA1FC /* FloatingTabBarSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTabBarSwiftUIUITests.swift; sourceTree = "<group>"; };
 		98AB0FA02C73273200FEA1FC /* FloatingTabBarSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTabBarSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		98AB0FAE2C732D1100FEA1FC /* TabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabModel.swift; sourceTree = "<group>"; };
+		98AB0FB12C732DFC00FEA1FC /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 		98AB0F7D2C73272F00FEA1FC /* FloatingTabBarSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				98AB0FB02C732DED00FEA1FC /* Views */,
+				98AB0FAD2C732D0500FEA1FC /* Model */,
 				98AB0F7E2C73272F00FEA1FC /* FloatingTabBarSwiftUIApp.swift */,
 				98AB0F802C73272F00FEA1FC /* ContentView.swift */,
 				98AB0F822C73273100FEA1FC /* Assets.xcassets */,
@@ -131,6 +137,22 @@
 				98AB0FA02C73273200FEA1FC /* FloatingTabBarSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = FloatingTabBarSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		98AB0FAD2C732D0500FEA1FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				98AB0FAE2C732D1100FEA1FC /* TabModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		98AB0FB02C732DED00FEA1FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				98AB0FB12C732DFC00FEA1FC /* CustomTabBar.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +289,8 @@
 				98AB0F8B2C73273100FEA1FC /* FloatingTabBarSwiftUI.xcdatamodeld in Sources */,
 				98AB0F812C73272F00FEA1FC /* ContentView.swift in Sources */,
 				98AB0F7F2C73272F00FEA1FC /* FloatingTabBarSwiftUIApp.swift in Sources */,
+				98AB0FB22C732DFC00FEA1FC /* CustomTabBar.swift in Sources */,
+				98AB0FAF2C732D1100FEA1FC /* TabModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
