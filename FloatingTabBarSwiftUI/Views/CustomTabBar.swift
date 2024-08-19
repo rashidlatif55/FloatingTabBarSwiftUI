@@ -83,7 +83,7 @@ struct CustomTabBar: View {
                     .foregroundStyle(activeForeground)
                     .background(activeBackground.gradient)
                     .clipShape(.circle)
-                    .shadow(color: .black.opacity(0.35), radius: 5)
+                    .shadow(color: .black.opacity(activeTabBarStatus ? 0.35:0), radius: 5)
             }
             .allowsHitTesting(activeTabBarStatus)
             .offset(x: activeTabBarStatus ? 0: -20)
